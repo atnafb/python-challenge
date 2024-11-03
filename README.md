@@ -1,5 +1,35 @@
 # python-challenge
 
+This repository contains Python scripts to analyze financial records and election poll data. The projects aim to demonstrate the ability to process large datasets using Python, perform calculations, and present the results in a user-friendly format.
+
+## Financial Analysis 
+
+### PyBank
+
+In the PyBank challenge, the task is to analyze the financial records of a company using a dataset called `budget_data.csv`. The dataset includes two columns: "Date" and "Profit/Losses". 
+
+#### Objectives
+
+The script performs the following analyses:
+- Calculate the total number of months included in the dataset.
+- Calculate the net total amount of "Profit/Losses" over the entire period.
+- Calculate the changes in "Profit/Losses" over the entire period and the average of those changes.
+- Identify the greatest increase in profits (date and amount) over the entire period.
+- Identify the greatest decrease in profits (date and amount) over the entire period.
+
+#### Expected Output
+
+The analysis aligns with the following results:
+
+Financial Analysis
+----------------------------
+- Total Months: 86
+- Total: $22564198
+- Average Change: $-8311.11
+- Greatest Increase in Profits: Aug-16 ($1862002)
+- Greatest Decrease in Profits: Feb-14 ($-1825558)
+
+
 ### PyPoll
 
 In the PyPoll challenge, the task is to modernize the vote-counting process for a small rural town using a dataset called `election_data.csv`. This dataset consists of three columns: "Voter ID", "County", and "Candidate".
@@ -13,15 +43,15 @@ The script performs the following analyses:
 - Calculate the total number of votes each candidate won.
 - Identify the winner of the election based on popular vote.
 
-#### Expected Output
+Expected Output
 
 Election Results
+- -------------------------
+- Total Votes: 369711
 -------------------------
-Total Votes: 369711
--------------------------
-Charles Casper Stockham: 23.049% (85213)
-Diana DeGette: 73.812% (272892)
-Raymon Anthony Doane: 3.139% (11606)
--------------------------
-Winner: Diana DeGette
--------------------------
+- Charles Casper Stockham: 23.049% (85213)
+- Diana DeGette: 73.812% (272892)
+- Raymon Anthony Doane: 3.139% (11606)
+- -------------------------
+- Winner: Diana DeGette
+- -------------------------
